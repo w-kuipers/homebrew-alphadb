@@ -4,8 +4,8 @@ class Alphadb < Formula
   license "GPL-3.0-or-later"
 
   if Hardware::CPU.arm?
-    url "https://github.com/w-kuipers/alphadb/releases/download/v1.0.0b11/alphadb-cli_v1.0.0b11_Darwin_arm64.tar.gz"
-    sha256 "b75771e07783f82b28073753501c0475866289d811a43860a3315b4d9dbc19fb"
+    url "https://github.com/w-kuipers/alphadb/releases/download/v1.0.0b14/alphadb-cli_v1.0.0b14_Darwin_x86_64.tar.gz"
+    sha256 "a1a020939c00d76d4f958a19d4d8e10078dfb0b1205b04089d652902f4c76524"
 
     def install
       libexec.install Dir["*"]
