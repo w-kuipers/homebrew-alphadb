@@ -4,7 +4,7 @@ class Alphadb < Formula
   license "GPL-3.0-or-later"
 
   url "https://github.com/w-kuipers/alphadb/releases/download/v1.0.0-beta.30/alphadb-cli_v1.0.0-beta.30_Darwin-x86_64.tar.gz"
-  sha256 "d6001b50940d08f44c49121505a4750825ad29086327c6d4912f3c89a75c3f8d"
+  sha256 "bbfccca994d0729890dfb92450a99d7d0746ff9e219c385087094662b33b8e01"
 
   def install
     libexec.install Dir["*"]
