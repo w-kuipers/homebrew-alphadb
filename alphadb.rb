@@ -3,8 +3,8 @@ class Alphadb < Formula
   homepage "https://alphadb.w-kuipers.com/"
   license "GPL-3.0-or-later"
 
-  url "https://github.com/w-kuipers/alphadb/releases/download/v1.0.0-beta.35/alphadb-cli_v1.0.0-beta.35_Darwin-x86_64.tar.gz"
-  sha256 "a4b48eb099861561665fd7be0531976a8cb6f5abc5dc5a13deaf19640935b8f6"
+  url "https://github.com/w-kuipers/alphadb/releases/download/v1.0.0-beta.36/alphadb-cli_v1.0.0-beta.36_Darwin-x86_64.tar.gz"
+  sha256 "a77d799141106a6a25c1af1b1e0c13635fdf9f00aab156851d8f20ae8d46daa7"
 
   def install
     libexec.install Dir["*"]
