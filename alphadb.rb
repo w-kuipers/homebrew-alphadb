@@ -1,11 +1,11 @@
 class Alphadb < Formula
-  desc "MySQL Database Version Management"
+  desc "SQL Database Version Management"
   homepage "https://alphadb.w-kuipers.com/"
   license "GPL-3.0-or-later"
 
-  url "https://github.com/w-kuipers/alphadb/releases/download/v1.0.0-beta.38/alphadb-cli_v1.0.0-beta.38_Darwin-x86_64.tar.gz"
-  version "1.0.0-beta.38"
-  sha256 "14647a10d82096534b9ed844014ef3b70b1eee98bdc913393ec5f63575fe57da"
+  version "1.0.0-beta.39"
+  url "https://github.com/w-kuipers/alphadb/releases/download/v#{version}/alphadb-cli_v#{version}_Darwin-x86_64.tar.gz"
+  sha256 "d909d393e245ce5d33474abdaf886ababe7394489e0f7a81d0646be13cf8bdb5"
 
   def install
     libexec.install Dir["*"]
