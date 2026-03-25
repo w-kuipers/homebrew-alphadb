@@ -4,6 +4,7 @@ class Alphadb < Formula
   license "GPL-3.0-or-later"
 
   url "https://github.com/w-kuipers/alphadb/releases/download/v1.0.0-beta.38/alphadb-cli_v1.0.0-beta.38_Darwin-x86_64.tar.gz"
+  version "1.0.0-beta.38"
   sha256 "14647a10d82096534b9ed844014ef3b70b1eee98bdc913393ec5f63575fe57da"
 
   def install
