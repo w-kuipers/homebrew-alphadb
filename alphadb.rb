@@ -3,22 +3,22 @@ class Alphadb < Formula
   homepage "https://alphadb.w-kuipers.com/"
   license "GPL-3.0-or-later"
 
-  version "1.0.0-beta.41"
+  version "1.0.0-beta.42"
 
   on_macos do
     on_arm do
       url "https://github.com/w-kuipers/alphadb/releases/download/v#{version}/alphadb-cli_v#{version}_Darwin-aarch64.tar.gz"
-      sha256 "48769b860aedb1f7bb51b22ccee70744615d5309339121ac27dd83f3ee54591f"
+      sha256 "9c7aeea1812c1a759e6ada9e1ba344965461ff259a6d2eaabf8a3dbb50deffa4"
     end
     on_intel do
       url "https://github.com/w-kuipers/alphadb/releases/download/v#{version}/alphadb-cli_v#{version}_Darwin-x86_64.tar.gz"
-      sha256 "9a4fa10d1aa2bd462314a9902b64a3fc53953ce07d726bc34d03c538282b8e28"
+      sha256 "0a6eea40f8ca00528b664affade62d1f887beac63cc9c54e519ce5d4d6376a57"
     end
   end
 
   on_linux do
     url "https://github.com/w-kuipers/alphadb/releases/download/v#{version}/alphadb-cli_v#{version}_Linux-x86_64.tar.gz"
-    sha256 "bf9fef1910f1b3ef57f3e158f5189eea81f5f7c8ab9067f8309c16b911e4bbfd"
+    sha256 "2df1a56a3e38bc5924c7ea5fdf87e22e401ca4e71d637a6eb1987d93fba1abb1"
   end
 
   def install
